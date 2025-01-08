@@ -1,0 +1,28 @@
+{
+  "name": "zordie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "ipfs-http-client": "^60.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@types/mocha": "^10.0.10",
+    "hardhat": "^2.22.17",
+    "hardhat-deploy": "^0.14.0"
+  }
+}
